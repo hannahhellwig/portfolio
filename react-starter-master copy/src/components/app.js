@@ -7,9 +7,6 @@ class App extends React.Component {
 
     return (
       <div>
-        <div className="mainContainer">
-          Hello! {myVar + 1}
-        </div>
         Find me in src/components/app.js!
       </div>
     )
