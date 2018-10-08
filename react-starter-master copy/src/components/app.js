@@ -1,14 +1,23 @@
 import React from "react"
+import { HashRouter as Router, Route, Link } from "react-router-dom"
+import Footer from "./footer"
+import LandingPage from "./landingpage"
+import ProjectPage from "./projectpage"
 
 class App extends React.Component {
 
   render() {
-    const myVar = 10
-
     return (
-      <div>
-        Find me in src/components/app.js!
-      </div>
+      <Router>
+        <div>
+          <li><Link to="/landingPage">Start Page</Link></li>
+          <li><Link to="/projectPage" >Project Page</Link></li>
+          <Route path="/landingPage" component={LandingPage} />
+          <Route path="/projectPage" exact="true" component={ProjectPage} />
+          <Route path="/project/:id" component={ProjectPage} />
+          <Footer />
+        </div>
+      </Router>
     )
   }
 

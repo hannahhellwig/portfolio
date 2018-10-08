@@ -1,0 +1,29 @@
+{
+	"projects": [{
+			"id": 1,
+			"title": "Radio Player built in React using Sveriges Radio API:s",
+			"image": "./images/image.png",
+			"description": "Skonsamt mot magen om man behöver ta värkmedicin ofta. Lindrar smärta och sänker feber. Effekten på värk kommer inom 30 minuter och på feber efter ½ - 1 timme. Från 3 år.",
+			"name": "Radio Player"
+		},
+		{
+			"id": 2,
+			"title": "Titel",
+			"image": "./images/image.png",
+			"description": "Lindrar smärta, dämpar inflammation och sänker feber. Effekten kommer inom 30 min, varar i ca 6 tim. Från 12 år."
+		},
+		{
+			"id": 3,
+			"title": "Titel",
+			"image": "./images/image.png",
+			"description": "Lindrar smärta, dämpar inflammation och sänker feber. Effekten kommer inom 30 min, varar i ca 6 tim. Från 12 år."
+		},
+		{
+			"id": 4,
+			"title": "Titel",
+			"image": "./images/image.png",
+			"description": "Ska inte användas längre än 10 dagar i följd. Fri från konserveringsmedel.Ger en avsvällande effekt vilket minskar nästäppan och gör det lättare att andas. Från 10 år. Effekt inom några minuter."
+		}
+
+	]
+}
