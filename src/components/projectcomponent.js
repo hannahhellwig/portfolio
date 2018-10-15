@@ -15,11 +15,14 @@ class ProjectComponent extends React.Component {
           <p>{this.props.description}</p>
           <a className="button" href={this.props.sitelink}>See it live</a>
         </div>
+        <h3>Tech specs</h3>
         <div className="caseTechSpecsContainer">
-          <h3>Tech specs</h3>
-          <div className="centerButton">
-            <a className="codeButton button" href={this.props.codelink} target="_blank">View the code</a>
-          </div>
+          <div className="caseTechSpecBox">{this.props.code}</div>
+          <div className="caseTechSpecBox">{this.props.toolbox}</div>
+          <div className="caseTechSpecBox">{this.props.more}</div>
+        </div>
+        <div className="centerButton">
+          <a className="codeButton button" href={this.props.codeLink} target="_blank">View the code</a>
         </div>
       </div>
     )

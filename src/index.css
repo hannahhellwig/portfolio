@@ -180,6 +180,14 @@ footer p {
 
 .caseTechSpecsContainer {
   padding: 40px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.caseTechSpecBox {
+  display: flex;
+  flex-direction: column;
 }
 
 .centerButton{
