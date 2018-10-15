@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectGrid from "./projectGrid"
+import StartPageGrid from "./startpagegrid"
 import AboutMe from "./aboutme"
 import Skills from "./skills"
 
@@ -13,13 +13,14 @@ class LandingPage extends React.Component {
         <AboutMe />
         <div className="gridContainer">
           {casesJson.projects.map(project =>
-            <ProjectGrid
+            <StartPageGrid
               title={project.title}
-              image={project.image} />)}
+              image={project.image}
+              id={project.id} />)}
         </div>
         <Skills />
         <div className="centerButton">
-          <button>se my linkedin</button>
+          <a className="button" href="https://github.com/hannahhellwig" target="_blank">se my linkedin</a>
         </div>
       </div>
     )

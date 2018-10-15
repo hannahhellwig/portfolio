@@ -11,10 +11,8 @@ class App extends React.Component {
       <Router>
         <div>
           <div className="pageContent">
-            <li><Link to="/landingPage">Start Page</Link></li>
-            <li><Link to="/projectPage" >Project Page</Link></li>
-            <Route path="/landingPage" component={LandingPage} />
-            <Route path="/projectPage" exact="true" component={ProjectPage} />
+            <Route path="/" exact="true" component={LandingPage} />
+            <Route path="/project" exact="true" component={ProjectPage} />
             <Route path="/project/:id" component={ProjectPage} />
           </div>
           <Footer />

@@ -15,7 +15,8 @@ body {
 h1 {
   font-family: BigJohn;
   line-height: 1.5;
-  padding: 10px 0;
+  padding: 0;
+  margin: 0;
 }
 h2 {
   font-family: BigJohn;
@@ -29,13 +30,9 @@ h4 {
   margin: 10px 0;
 }
 
-/* landingpage grid  project title*/
-h5 {
-}
-
 p {
  color: #707070;
-  font-weight: lighter;
+ font-weight: lighter;
 }
 
 ul {
@@ -44,18 +41,10 @@ ul {
   color: #707070;
 }
 
-button {
-  color: #F4A732;
-  background-color: #FDE7C4;
-  font-family: BigJohn;
-  border: none;
-  border-radius: 20px;
-  outline: none;
-  cursor: pointer;
-  width: 150px;
-  padding: 15px;
-  margin: 20px 0;
+a {
+  text-decoration: none;
 }
+
 footer {
   color: white;
   background-color: #F4A732;
@@ -71,6 +60,28 @@ footer p {
   color: white;
 }
 
+.buttonContainer {
+  padding: 30px 0;
+}
+
+.button{
+  color: #F4A732;
+  background-color: #FDE7C4;
+  font-family: BigJohn;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  padding: 15px;
+  margin: 50px 0;
+}
+
+.button:hover {
+  color: #FDE7C4;
+  background-color: #F4A732;
+}
+
 .pageContent {
   box-sizing: border-box;
   width: 100%;
@@ -81,6 +92,7 @@ footer p {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
+  padding: 60px 0 0;
 }
 .aboutMeLeft {
   width: 40%;
@@ -88,8 +100,16 @@ footer p {
 .aboutMeRight {
   width: 60%;
 }
+
+.aboutMeRight p {
+  font-size: 24px;
+}
+
 .techBox {
   width: 100%;
+}
+.techBox p {
+  font-size: 24px;
 }
 .gridContainer {
   width: 100%;
@@ -105,9 +125,14 @@ footer p {
   object-fit: scale-down;
 
 }
-.gridBox img{
+.gridBox img {
  width: 100%;
 }
+
+.gridBox h3 {
+  color: #707070;
+}
+
 .skillsBox, .studiesBox {
   display: flex;
   flex-flow: wrap row;
@@ -116,27 +141,60 @@ footer p {
   width: 33.33%;
 }
 /* Project page */
+.backNavContainer {
+  height: 30px;
+}
+
+.backNav {
+  color: #F4A732;
+  margin-top: 40px;
+}
+
+.backNav:hover {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
 .caseContainer {
   box-sizing: border-box;
   width: 100%;
   object-fit: scale-down;
+  margin-top: 20px;
 }
+
 .caseContainer img {
   width: 100%;
   padding: 10px 0;
 }
+
 .caseContainer p {
   line-height: 1.5;
   font-weight: lighter;
   color: #707070;
+  padding-bottom: 30px;
 }
+
 .caseTextContainer {
   width: 70%;
 }
+
+.caseTechSpecsContainer {
+  padding: 40px;
+}
+
 .centerButton{
   display: flex;
   justify-content: center;
 }
+
 .codeButton {
   text-align: center;
+}
+@media screen and (max-width: 900px){
+  .gridBox {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    object-fit: scale-down;
+  }
 }

@@ -10,11 +10,13 @@ class AboutMe extends React.Component {
           <p>hannahhellwig@hotmail.com</p>
           <p>+ 4673 - 684 51 71</p>
         </div>
-        <div className="aboutMeLeft">
+        <div className="aboutMeRight">
           <p>Hannah Hellwig</p>
           <h1> Frontend Developer </h1>
           <p>text about me</p>
-          <button>see my github</button>
+          <div className="buttonContainer">
+            <a className="button" href="https://github.com/hannahhellwig" target="_blank">see my github</a>
+          </div>
         </div>
         <div className="techBox">
           <h2>Tech</h2>
