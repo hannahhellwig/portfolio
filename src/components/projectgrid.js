@@ -1,7 +1,7 @@
 import React from "react"
 import { HashRouter as Router, Route, Link } from "react-router-dom"
 
-class StartPageGrid extends React.Component {
+class ProjectGrid extends React.Component {
 
   render() {
     return (
@@ -16,4 +16,4 @@ class StartPageGrid extends React.Component {
 
 }
 
-export default StartPageGrid
+export default ProjectGrid

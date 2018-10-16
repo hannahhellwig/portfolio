@@ -6,7 +6,7 @@ class AboutMe extends React.Component {
     return (
       <div className="aboutMe">
         <div className="aboutMeLeft">
-          <img src="" alt="Hannah Hellwig" />
+          <img src="./images/hannahhellwig.jpeg" alt="Hannah Hellwig" />
           <p>hannahhellwig@hotmail.com</p>
           <p>+ 4673 - 684 51 71</p>
         </div>
