@@ -48,7 +48,7 @@ a {
 
 footer {
   color: white;
-  background-color: #F4A732;
+  background-color: #FFBAE1;
   text-align: center;
   padding: 20px 0;
   margin: 10px 0 0;
@@ -66,8 +66,8 @@ footer p {
 }
 
 .button{
-  color: #F4A732;
-  background-color: #FDE7C4;
+  color: #fff;
+  background-color: #FFBAE1;
   font-family: BigJohn;
   text-align: center;
   border: none;
@@ -81,8 +81,9 @@ footer p {
 }
 
 .button:hover {
-  color: #FDE7C4;
-  background-color: #F4A732;
+  color: #FFBAE1;
+  background-color: #fff;
+  border: 1px solid #FFBAE1;
 }
 
 .pageContent {
@@ -97,17 +98,13 @@ footer p {
   flex-flow: row wrap;
   padding: 120px 0 0;
 }
-.aboutMeLeft {
-  width: 40%;
+.aboutMeLeft, .aboutMeRight {
+  width: 50%;
 }
 
 .aboutMeLeft img {
-  width: calc(100% - 50px);
-  margin: 40px 0 0;
-}
-
-.aboutMeRight {
-  width: 60%;
+  width: calc(100% - 40px);
+  margin: 0 40px 0 0;
 }
 
 .aboutMeRight p {
@@ -116,7 +113,7 @@ footer p {
 
 .techBox {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .techBox p {
   font-size: 24px;
@@ -158,7 +155,8 @@ footer p {
 }
 
 .backNav {
-  color: #F4A732;
+  color: #FFBAE1;
+  /* color: #F4A732; */
   margin-top: 40px;
 }
 
@@ -190,15 +188,10 @@ footer p {
 }
 
 .caseTechSpecsContainer {
-  padding: 40px;
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 
-}
-
-.caseTechSpecBox {
-  display: flex;
-  flex-direction: column;
 }
 
 .centerButton{

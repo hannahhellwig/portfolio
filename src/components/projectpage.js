@@ -16,6 +16,9 @@ class ProjectPage extends React.Component {
     // console.log(projectInView)
     return (
       <div>
+        <div className="backNavContainer">
+          <Link to="/"><a className="backNav">&lsaquo; Back</a></Link>
+        </div>
         {
           <ProjectComponent
             title={projectInView.title}
@@ -24,11 +27,32 @@ class ProjectPage extends React.Component {
             name={projectInView.name}
             id={projectInView.id}
             codeLink={projectInView.codeLink}
-            siteLink={projectInView.siteLink}
-            code={projectInView.code}
-            toolbox={projectInView.toolbox}
-            more={projectInView.more} />
+            siteLink={projectInView.siteLink} />
         }
+        <h3>Tech specs</h3>
+        <div className="caseTechSpecsContainer">
+          <div className="caseTechSpecBox">
+            <h4>Code</h4>
+            <ul>
+              {projectInView.code.map(item => <li>{item}</li>)}
+            </ul>
+          </div>
+          <div className="caseTechSpecBox">
+            <h4>Toolbox</h4>
+            <ul>
+              {projectInView.toolbox.map(item => <li>{item}</li>)}
+            </ul>
+          </div>
+          <div className="caseTechSpecBox">
+            <h4>More</h4>
+            <ul>
+              {projectInView.more.map(item => <li>{item}</li>)}
+            </ul>
+          </div>
+        </div>
+        <div className="centerButton">
+          <a className="codeButton button" href={this.props.codeLink} target="_blank">View the code</a>
+        </div>
       </div>
     )
   }
