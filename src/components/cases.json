@@ -22,12 +22,35 @@
 			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
 			"toolbox": ["Atom", "Postman", "Slack"],
 			"more": ["Concept development", "Agile methodology"]
-
 		},
 		{
 			"id": 3,
-			"title": "Prodouct Listing Page built in React",
+			"title": "Career page built in React. Client: Comprend",
 			"image": "./images/image2.png",
+			"description": "Collaborating with Dagens Nyheter att Bonnier News me and my team built a news paper in React using Google News API. We added a weather API and the site is made to be responsive with media queries for mobile and tablet.",
+			"name": "News Site",
+			"codeLink": "https://github.com/hannahhellwig/radio-player",
+			"siteLink": "https://github.com/hannahhellwig/radio-player",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+			"toolbox": ["Atom", "Postman", "Slack"],
+			"more": ["Concept development", "Agile methodology"]
+		},
+		{
+			"id": 4,
+			"title": "Weather dashboard built with a weather API in JavaScript",
+			"image": "./images/image.png",
+			"description": "Collaborating with Dagens Nyheter att Bonnier News me and my team built a news paper in React using Google News API. We added a weather API and the site is made to be responsive with media queries for mobile and tablet.",
+			"name": "News Site",
+			"codeLink": "https://github.com/hannahhellwig/radio-player",
+			"siteLink": "https://github.com/hannahhellwig/radio-player",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
+			"toolbox": ["Atom"],
+			"more": ["Concept development", "Agile methodology"]
+		},
+		{
+			"id": 5,
+			"title": "Prodouct Listing Page built in React",
+			"image": "./images/image.png",
 			"description": "Product listing page built in React made to look like a e-comerce pharmacy store. Made with a costum JSON file with an array listing all the products. The JSOn file is used to render a React component for each product. A hover effect is added to display more information. It is made to be responsive with media queries for mobile and tablet.",
 			"name": "Product Page",
 			"codeLink": "https://github.com/hannahhellwig/product-page",
@@ -37,9 +60,9 @@
 			"more": ["Concept development", "Agile methodology"]
 		},
 		{
-			"id": 4,
+			"id": 6,
 			"title": "Clock built in React",
-			"image": "./images/image.png",
+			"image": "./images/image2.png",
 			"description": "Clock built by using state in React. The clock has a paus button and a start button and the background changes based on the time of the day.",
 			"name": "Clock",
 			"codeLink": "https://github.com/hannahhellwig/clock",

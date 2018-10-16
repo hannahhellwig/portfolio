@@ -12,8 +12,7 @@ class ProjectPage extends React.Component {
 
   render() {
     const projectInView = casesJson.projects[this.props.match.params.id - 1]
-    // console.log(this.props.match.params.id)
-    // console.log(projectInView)
+
     return (
       <div>
         <div className="backNavContainer">
@@ -31,19 +30,19 @@ class ProjectPage extends React.Component {
         }
         <h3>Tech specs</h3>
         <div className="caseTechSpecsContainer">
-          <div className="caseTechSpecBox">
+          <div className="caseTechSpecBox list">
             <h4>Code</h4>
             <ul>
               {projectInView.code.map(item => <li>{item}</li>)}
             </ul>
           </div>
-          <div className="caseTechSpecBox">
+          <div className="caseTechSpecBox list">
             <h4>Toolbox</h4>
             <ul>
               {projectInView.toolbox.map(item => <li>{item}</li>)}
             </ul>
           </div>
-          <div className="caseTechSpecBox">
+          <div className="caseTechSpecBox list">
             <h4>More</h4>
             <ul>
               {projectInView.more.map(item => <li>{item}</li>)}

@@ -6,7 +6,7 @@ class Skills extends React.Component {
     return (
       <div>
         <h2>Skills</h2>
-        <div className="skillsBox">
+        <div className="skillsContainer">
           <div className="codeList list">
             <h3>Code</h3>
             <ul>
@@ -33,16 +33,20 @@ class Skills extends React.Component {
           <div className="moreList list">
             <h3>More</h3>
             <ul>
-              <li />
-              <li />
+              <li>Concept development</li>
+              <li>Agile methodology</li>
             </ul>
           </div>
         </div>
         <h2>Studies</h2>
-        <div className="studiesBox">
-          <div className="studiesFrontend list">
+        <div className="studiesContainer">
+          <div className="studiesBox list">
             <h3>Frontend Developer</h3>
             <p>Full-time 12 w boot camp/intensive program osv</p>
+          </div>
+          <div className="studiesBox list">
+            <h3>Sculpture Artist</h3>
+            <p>Full-time two year education in sculpture art at Konstskolan Idun Lovén</p>
           </div>
         </div>
       </div>
