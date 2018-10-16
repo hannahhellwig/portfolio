@@ -42,11 +42,18 @@ class Skills extends React.Component {
         <div className="studiesContainer">
           <div className="studiesBox list">
             <h3>Frontend Developer</h3>
-            <p>Full-time 12 w boot camp/intensive program osv</p>
+            <p>Full-time 12 w boot camp/intensive program. Covering everything
+            from the basics of programing to how to sturcture and build bigger web projects.
+            Focus on JavaScript. Total 480 coding hours, 50+ individual tasks (in HTML,
+             CSS JavaScript, JSX, React and Node.js) and six sprints with demos together with
+             companies like Volumental, Bonnier News, Comprend and Svenska Spel. Sthlm Sep-Nov 2018
+            </p>
           </div>
           <div className="studiesBox list">
             <h3>Sculpture Artist</h3>
-            <p>Full-time two year education in sculpture art at Konstskolan Idun Lovén</p>
+            <p>Full-time two year education in sculpture art at Konstskolan Idun Lovén.
+            Sthlm Aug 2016 - May 2018.
+            </p>
           </div>
         </div>
       </div>
