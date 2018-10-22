@@ -10,7 +10,6 @@ class ProjectComponent extends React.Component {
         <div className="caseTextContainer">
           <h1>{this.props.title}</h1>
           <p>{this.props.description}</p>
-          <a className="button" href={this.props.sitelink}>See it live</a>
         </div>
       </div>
     )

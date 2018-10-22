@@ -26,6 +26,7 @@ class Skills extends React.Component {
               <li>Postman</li>
               <li>Adobe Photoshop</li>
               <li>Adobe Illustrator</li>
+              <li>Fincal Cut</li>
               <li>Keynote</li>
               <li>Slack</li>
             </ul>
@@ -42,17 +43,30 @@ class Skills extends React.Component {
         <div className="studiesContainer">
           <div className="studiesBox list">
             <h3>Frontend Developer</h3>
-            <p>Full-time 12 w boot camp/intensive program. Covering everything
+            <p>
+            Full-time 12 w boot camp/intensive program. Covering everything
             from the basics of programing to how to sturcture and build bigger web projects.
-            Focus on JavaScript. Total 480 coding hours, 50+ individual tasks (in HTML,
+            Focus on JavaScript. Total 480 coding hours, 35+ individual tasks (in HTML,
              CSS JavaScript, JSX, React and Node.js) and six sprints with demos together with
              companies like Volumental, Bonnier News, Comprend and Svenska Spel. Sthlm Sep-Nov 2018
             </p>
           </div>
           <div className="studiesBox list">
             <h3>Sculpture Artist</h3>
-            <p>Full-time two year education in sculpture art at Konstskolan Idun Lovén.
-            Sthlm Aug 2016 - May 2018.
+            <p>
+            Full-time two year education in sculpture art at Konstskolan Idun Lovén.
+            Sthlm Aug 2016 - May 2018. The education contained courses including sculpture,
+            sketching, working on your own artistic works, thematic work, planing exhibitions,
+            artistic workshops, photo and video editing, writing, art history and guest
+            lectures with artists.
+            </p>
+          </div>
+          <div className="studiesBox list">
+            <h3>Visual Art</h3>
+            <p>
+            Education in visual art at Sigtuna Folkhögskola, Sthlm Aug 2015 - May 2016.
+            Content including sketching, drawing, art history, individuall project,
+            painting, sculpure, screentryck and Adobe Illustrator.
             </p>
           </div>
         </div>

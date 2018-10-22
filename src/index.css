@@ -1,33 +1,27 @@
-@font-face {
-  font-family: BigJohn;
-  src: url(/fonts/BIGJOHN.otf);
-}
-/* @font-face {
-  font-family: SlimJoe;
-  src: url(/fonts/SlimJoe.otf);
-} */
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Montserrat:100,400');
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Lato";
   width: 100%;
 }
 h1 {
-  font-family: BigJohn;
+  font-family: "Lato";
   line-height: 1.5;
   padding: 0;
   margin: 0;
 }
 h2 {
-  font-family: BigJohn;
+  font-family: "Lato";
+  margin: 60px 0 10px;
 }
 h3 {
-  font-family: BigJohn;
+  font-family: "Montserrat";
   color: #707070;
   height: 40px;
 }
 h4 {
-  font-family: BigJohn;
+  font-family: "Lato";
   color: #707070;
   margin: 10px 0;
 }
@@ -49,7 +43,7 @@ a {
 
 footer {
   color: white;
-  background-color: #FFBAE1;
+  background-color: #FFB5C7;
   text-align: center;
   padding: 20px 0;
   margin: 10px 0 0;
@@ -73,11 +67,10 @@ footer h4 {
 
 .button{
   color: #fff;
-  background-color: #FFBAE1;
-  font-family: BigJohn;
+  background-color: #FFB5C7;
+  font-family: "Montserrat";
   text-align: center;
   border: none;
-  /* border-radius: 20px; */
   outline: none;
   cursor: pointer;
   width: 150px;
@@ -87,9 +80,9 @@ footer h4 {
 }
 
 .button:hover {
-  color: #FFBAE1;
+  color: #FFB5C7;
   background-color: #fff;
-  border: 1px solid #FFBAE1;
+  border: 1px solid #FFB5C7;
 }
 
 .pageContent {
@@ -97,7 +90,7 @@ footer h4 {
   width: 100%;
   padding: 0 130px;
 }
-/* Starting page */
+
 .aboutMe {
   width: 100%;
   display: flex;
@@ -156,14 +149,13 @@ footer h4 {
   width: 33.33%;
   padding-right: 25px;
 }
-/* Project page */
+
 .backNavContainer {
   height: 10px;
 }
 
 .backNav {
-  color: #FFBAE1;
-  /* color: #F4A732; */
+  color: #FFB5C7;
   margin: 10px;
   display: block;
 }
@@ -199,11 +191,11 @@ footer h4 {
 .caseTechSpecsContainer {
   padding-bottom: 40px;
   display: flex;
-  justify-content: space-between;
 
 }
 
 .centerButton{
+  height: 150px;
   display: flex;
   justify-content: center;
 }

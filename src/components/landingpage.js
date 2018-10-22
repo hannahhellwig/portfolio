@@ -20,7 +20,7 @@ class LandingPage extends React.Component {
         </div>
         <Skills />
         <div className="centerButton">
-          <a className="button" href="https://github.com/hannahhellwig" target="_blank">se my linkedin</a>
+          <a className="button" href="https://www.linkedin.com/in/hannah-hellwig/" target="_blank">se my linkedin</a>
         </div>
       </div>
     )

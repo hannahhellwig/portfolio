@@ -42,15 +42,9 @@ class ProjectPage extends React.Component {
               {projectInView.toolbox.map(item => <li>{item}</li>)}
             </ul>
           </div>
-          <div className="caseTechSpecBox list">
-            <h4>More</h4>
-            <ul>
-              {projectInView.more.map(item => <li>{item}</li>)}
-            </ul>
-          </div>
         </div>
         <div className="centerButton">
-          <a className="codeButton button" href={this.props.codeLink} target="_blank">View the code</a>
+          <a className="codeButton button" href={projectInView.codeLink} target="_blank">View the code</a>
         </div>
       </div>
     )
