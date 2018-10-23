@@ -16,7 +16,7 @@ class ProjectPage extends React.Component {
     return (
       <div>
         <div className="backNavContainer">
-          <Link to="/"><a className="backNav">&lsaquo; Back</a></Link>
+          <Link to="/" className="backNav">&lsaquo; Back</Link>
         </div>
         {
           <ProjectComponent
@@ -26,7 +26,8 @@ class ProjectPage extends React.Component {
             name={projectInView.name}
             id={projectInView.id}
             codeLink={projectInView.codeLink}
-            siteLink={projectInView.siteLink} />
+            siteLink={projectInView.siteLink}
+            alt={projectInView.alt} />
         }
         <h3>Tech specs</h3>
         <div className="caseTechSpecsContainer">
@@ -44,7 +45,7 @@ class ProjectPage extends React.Component {
           </div>
         </div>
         <div className="centerButton">
-          <a className="codeButton button" href={projectInView.codeLink} target="_blank">View the code</a>
+          <a className="codeButton button" href={projectInView.codeLink} target="_blank">View The Code</a>
         </div>
       </div>
     )

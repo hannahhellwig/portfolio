@@ -6,23 +6,23 @@ class AboutMe extends React.Component {
     return (
       <div className="aboutMe">
         <div className="aboutMeLeft">
-          <img src="./images/hannahhellwig.jpeg" alt="Hannah Hellwig" />
+          <img src="./images/hannahhellwig.jpeg" alt="Frontend Developer Hannah Hellwig" />
           <p>hannahhellwig@hotmail.com</p>
-          <p>+ 4673 - 684 51 71</p>
+          <p>+ 4673 684 51 71</p>
         </div>
         <div className="aboutMeRight">
           <p>Hannah Hellwig</p>
           <h1> Frontend Developer </h1>
           <p>
-          Hello! I’m Hannah and I love to create! I have been creating
-          things with my hands by sculpturing in various materials and
-          sketching things for the past years and I recently found my
-          passion for creating things with code as a frontend developer.
-          My passion is creating new solutions to building things and
-          problem solving.
+            Hello! I’m Hannah and I love to create! I have been creating
+            things with my hands by sculpturing in various materials and
+            sketching things for the past years and I recently found my
+            passion for creating things with code as a frontend developer.
+            My passion is creating new solutions to building things and
+            problem solving.
           </p>
           <div className="buttonContainer">
-            <a className="button" href="https://github.com/hannahhellwig" target="_blank">see my github</a>
+            <a className="button" href="https://github.com/hannahhellwig" target="_blank">See my GitHub</a>
           </div>
         </div>
         <div className="techBox">

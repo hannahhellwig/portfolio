@@ -41,9 +41,16 @@ a {
   text-decoration: none;
 }
 
+a:focus {
+  outline: 2px solid #70707070;
+  outline-offset: 10px;
+
+}
+
 footer {
   color: white;
-  background-color: #FFB5C7;
+  /* background-color: #FFB5C7; */
+  background-color: #89B0AE;
   text-align: center;
   padding: 20px 0;
   margin: 10px 0 0;
@@ -51,14 +58,14 @@ footer {
 
 footer p {
   margin: 0;
-  font-size: 12px;
   font-weight: lighter;
-  color: #fff;
+  color: #16405B;
 }
 
 footer h4 {
-  color: #fff;
+  color: #16405B;
   margin: 10px 0;
+  font-size: 24px;
 }
 
 .buttonContainer {
@@ -66,23 +73,29 @@ footer h4 {
 }
 
 .button{
-  color: #fff;
-  background-color: #FFB5C7;
+  color: #16405B;
+  background-color: #89B0AE;
   font-family: "Montserrat";
   text-align: center;
   border: none;
-  outline: none;
   cursor: pointer;
-  width: 150px;
+  width: 180px;
   padding: 15px;
   margin: 50px 0;
   display: inline-block;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .button:hover {
-  color: #FFB5C7;
-  background-color: #fff;
-  border: 1px solid #FFB5C7;
+  color: #16405B;
+  background-color: #A5D3D1;
+  /* border: 1px solid #16405B; */
+}
+
+.button:focus {
+  outline: 2px solid #70707070;
+  outline-offset: 5px;
 }
 
 .pageContent {
@@ -140,6 +153,10 @@ footer h4 {
   color: #707070;
 }
 
+.gridBox a:hover {
+  text-decoration: underline;
+}
+
 .skillsContainer, .studiesContainer {
   display: flex;
   flex-flow: wrap row;
@@ -151,18 +168,26 @@ footer h4 {
 }
 
 .backNavContainer {
-  height: 10px;
+  height: 30px;
 }
 
 .backNav {
-  color: #FFB5C7;
+  background-color: #fff;
+  color: #16405B;
+  padding: 10px;
   margin: 10px;
   display: block;
+  width: 50px;
 }
 
 .backNav:hover {
   font-size: 18px;
   text-decoration: underline;
+}
+
+.backNav:focus {
+  outline: 2px solid #70707070;
+  outline-offset: 2px;
 }
 
 .caseContainer {

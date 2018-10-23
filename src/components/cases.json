@@ -8,7 +8,8 @@
 		"codeLink": "https://github.com/Technigo/Sprint-3-Team-1-Fall18",
 		"siteLink": "https://github.com/Technigo/Sprint-3-Team-1-Fall18",
 		"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
-		"toolbox": ["Atom", "Postman", "Slack", "npm.js"]
+		"toolbox": ["Atom", "Postman", "Slack", "npm.js"],
+		"alt": "Screenshot of Project"
 	},
 		{
 			"id": 2,
@@ -19,7 +20,8 @@
 			"codeLink": "https://github.com/Technigo/Sprint-2-Team-1-Fall18",
 			"siteLink": "https://github.com/Technigo/Sprint-2-Team-1-Fall18",
 			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
-			"toolbox": ["Atom", "Postman", "Slack"]
+			"toolbox": ["Atom", "Postman", "Slack"],
+			"alt": "Screenshot of Project"
 		},
 		{
 				"id": 3,
@@ -30,7 +32,8 @@
 				"codeLink": "https://github.com/hannahhellwig/radio-player",
 				"siteLink": "https://github.com/hannahhellwig/radio-player",
 				"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
-				"toolbox": ["Atom", "Postman"]
+				"toolbox": ["Atom", "Postman"],
+				"alt": "Screenshot of Project"
 			},
 		{
 			"id": 4,
@@ -41,7 +44,8 @@
 			"codeLink": "https://github.com/hannahhellwig/product-page",
 			"siteLink": "https://github.com/hannahhellwig/product-page",
 			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
-			"toolbox": ["Atom"]
+			"toolbox": ["Atom"],
+			"alt": "Screenshot of Project"
 		},
 		{
 			"id": 5,
@@ -52,7 +56,8 @@
 			"codeLink": "https://github.com/hannahhellwig/weather",
 			"siteLink": "https://github.com/hannahhellwig/weather",
 			"code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
-			"toolbox": ["Atom"]
+			"toolbox": ["Atom"],
+			"alt": "Screenshot of Project"
 		},
 		{
 			"id": 6,
@@ -63,7 +68,8 @@
 			"codeLink": "https://github.com/hannahhellwig/clock",
 			"siteLink": "https://github.com/hannahhellwig/clock",
 			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
-			"toolbox": ["Atom"]
+			"toolbox": ["Atom"],
+			"alt": "Screenshot of Project"
 		}
 
 	]
