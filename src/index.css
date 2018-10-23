@@ -229,10 +229,52 @@ footer h4 {
   text-align: center;
 }
 @media screen and (max-width: 900px){
+
+  .buttonContainer {
+    padding: 0;
+    text-align: center;
+  }
+
+  .pageContent {
+    padding: 0 20px;
+  }
+
+  .aboutMe {
+    padding: 40px 0;
+  }
+
+  .aboutMeLeft, .aboutMeRight {
+    width: 100%;
+    padding: 0;
+  }
+
+  .aboutMeLeft img {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+
+  .techBox {
+    width: 100%;
+    margin: 0;
+  }
+
   .gridBox {
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
     object-fit: scale-down;
+  }
+
+  .skillsContainer, .studiesContainer {
+    display: flex;
+    flex-flow: wrap column;
+  }
+  .list {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 25px;
+  }
+  .caseTextContainer {
+    width: 100%;
   }
 }
