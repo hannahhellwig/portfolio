@@ -17,6 +17,7 @@ class Skills extends React.Component {
               <li>SASS</li>
               <li>GitHub</li>
               <li>Node.js</li>
+              <li>MongoDb</li>
             </ul>
           </div>
           <div className="toolboxList list">
@@ -39,16 +40,17 @@ class Skills extends React.Component {
             </ul>
           </div>
         </div>
-        <h2>Studies</h2>
+        <h2>Experience</h2>
         <div className="studiesContainer">
           <div className="studiesBox list">
             <h3>Frontend Developer</h3>
             <p>
-            Full-time 12 w boot camp/intensive program. Covering everything
-            from the basics of programing to how to sturcture and build bigger web projects.
-            Focus on JavaScript. Total 480 coding hours, 35+ individual tasks (in HTML,
-             CSS JavaScript, JSX, React and Node.js) and six sprints with demos together with
-             companies like Volumental, Bonnier News, Comprend and Svenska Spel. Sthlm Sep-Nov 2018
+            Full-time 12 w boot camp/intensive program. Covering everything from
+            the basics of programming to how to structure and build bigger web
+            projects. Focus on JavaScript. Total 480 coding hours, 35+ individual
+            tasks (in HTML, CSS JavaScript, JSX, React and Node.js) and six
+            sprints with demos together with companies like Volumental, Bonnier
+            News, Comprend, Svenska Spel and Fyndiq. Sthlm Sep-Nov 2018
             </p>
           </div>
           <div className="studiesBox list">
@@ -67,6 +69,17 @@ class Skills extends React.Component {
             Education in visual art at Sigtuna Folkhögskola, Sthlm Aug 2015 - May 2016.
             Content including sketching, drawing, art history, individuall project,
             painting, sculpure, screentryck and Adobe Illustrator.
+            </p>
+          </div>
+          <div className="studiesBox list">
+            <h3>Event Organizer</h3>
+            <p>
+            I worked together with the the management team planing a festival for
+            10 000 visitors and was responsible for about one seventh of the work.
+            I directly managed 7 people working with the festival and through them 80
+            people indirectly. I was responsible for vision, development, recruitment,
+            budget and follow up for my area. And  I worked with the rest of the
+            management team in long-term strategic work.
             </p>
           </div>
         </div>
